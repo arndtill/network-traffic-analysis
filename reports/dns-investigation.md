@@ -1,6 +1,6 @@
 # DNS Traffic Analysis and Investigation
 
-# 1. Overview
+## 1. Overview
 
 This project documents a controlled DNS traffic analysis and conducted in a local lab environment. The investigation focused on observing DNS queries and responses between a Windows Client and a Pi-hole DNS server. Wireshark and tcpdump were used to capture and inspect network traffic, while PI-hole's Query Log was used to verify DNS filtering results. The analysis covered both allowed DNS requests and other requests blocked by Pi-hole Gravity. Particular attention was given to DNS transaction IDs, record types, response codes, returned resource records, and the differences between normal resolution and blocked responses. The objective was to understadn how DNS traffic behaves under these conditions and demonstrate basic network traffic analysis techniques.
 
@@ -71,15 +71,13 @@ These additional exchanges were not part of the planned test cases and were excl
 
 ## 3.4 Evidence 
 
-The investigation used two packet captures:
+The investigation was documented using selected screenshots from Wireshark and Pi-hole. The screenshots provide visual evidence of:
 
+- Allowed DNS queries and responses
+- Blocked DNS responses
+- Pi-hole Gravity filtering results
 
-| File | Description |
-|---|---|
-| dns-allowed-test.pcap | DNS traffic observed during the allowed-domain tests |
-| dns-blocked-test.pcap | DNS traffic observedduring the blocked-domain test |
-
-Both captures were inspected in Wireshark, using also the Pi-hole's Query Log to verify the filtering status of doubleclick.net.
+The original PCAP files were retained locally and were not included in the public repository.
 
 ## 4. Findings
 
