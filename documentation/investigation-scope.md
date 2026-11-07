@@ -1,4 +1,4 @@
-# Lab Environment
+# Investigation Scope and Lab Environment 
 
 ## 1. Overview
 
@@ -29,7 +29,7 @@ Its filtering functionality uses Gravity blocklists to identify and block select
 
 The server is also configured with an upstream DNS resolver to handle queries that are not blocked.
 
-## 5,. Testing environment
+## 5. Testing environment
 
 Two types of DNS requests were generated:
 
