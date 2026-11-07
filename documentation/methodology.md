@@ -45,4 +45,4 @@ Allowed and blocked DNS responses were compared to identify differences in Pi-ho
 
 ## 6. Evidence Collection
 
-Packet captures were saved in PCAP format for further analysis. And relevant packet details and filtering results were recorded for inclusion in the investigation report.
+Packet captures were saved in PCAP format for analysis and retained locally. Selected Wireshark and Pi-hole screenshots were prepared as public evidence for the repository. Relevant packet details and filtering results were recorded for inlusion in the investigation report.
