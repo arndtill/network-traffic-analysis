@@ -20,14 +20,11 @@ Both A (IPv4) and AAAA (IPv6) queries were observed.
 
 ## 3. Packet Capture
 
-DNS traffic was captured on the Kali Linux server using tcpdump. The capture was restricted to traffic between the Windows Client and the Pi-hole server on port 53.
-
-The resultin PCAP files were opened in Wireshark for inspection.
-
+DNS traffic was captured on the Kali Linux server using tcpdump. The capture filter was set to port 53 to collect DNS traffic on the selected network interface. Separate PCAP files were used for the allowed-domain and blocked-domain tests to preserve each capture independently.
 
 ## 4. Packet Analysis
 
-Wireshark was used to inspect DNS queries and responses.
+Wireshark was used to inspect the PCAP files, with their DNS queries and responses.
 
 The following fields were examinated:
 
