@@ -24,7 +24,7 @@ DNS traffic was captured on the Kali Linux server using tcpdump. The capture fil
 
 ## 4. Packet Analysis
 
-Wireshark was used to inspect the PCAP files, with their DNS queries and responses.
+Wireshark was used to inspect the DNS queries and responses in the PCAP.
 
 The following fields were examined:
 
