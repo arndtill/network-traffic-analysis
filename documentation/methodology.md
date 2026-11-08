@@ -8,13 +8,13 @@ The Windows client was configured to send DNS queries directly to the Pi-hole se
 
 ## 2. DNS Traffic Generation
 
-DNS queries were generated from the Windows client using nslookup, with the following domains used for allowed resoultion tests:
+DNS queries were generated from the Windows client using nslookup, with the following domains used for allowed resolution tests:
 
 - example.net
 - example.org
 - example.edu
 
-A separate test was performed using doubleclick.net, which is confirmend to be blocked by Pi-hole Gravity.
+A separate test was performed using doubleclick.net, which is confirmed to be blocked by Pi-hole Gravity.
 
 Both A (IPv4) and AAAA (IPv6) queries were observed.
 
@@ -26,7 +26,7 @@ DNS traffic was captured on the Kali Linux server using tcpdump. The capture fil
 
 Wireshark was used to inspect the PCAP files, with their DNS queries and responses.
 
-The following fields were examinated:
+The following fields were examined:
 
 - Source and destination IP addresses.
 - UDP source and destination ports.
@@ -45,4 +45,4 @@ Allowed and blocked DNS responses were compared to identify differences in Pi-ho
 
 ## 6. Evidence Collection
 
-Packet captures were saved in PCAP format for analysis and retained locally. Selected Wireshark and Pi-hole screenshots were prepared as public evidence for the repository. Relevant packet details and filtering results were recorded for inlusion in the investigation report.
+Packet captures were saved in PCAP format for analysis and retained locally. Selected Wireshark and Pi-hole screenshots were prepared as public evidence for the repository. Relevant packet details and filtering results were recorded for inclusion in the investigation report.
